@@ -96,7 +96,7 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: #222;
   height: 100%;
   width: 100%;
 }
@@ -111,13 +111,11 @@ body {
 
 header,
 footer {
-  background-color: #222;
   height: 80px;
   width: 100%;
 }
 
 main {
-  background-color: #ccc;
   height: 250px;
   width: 100%;
 }
@@ -130,23 +128,43 @@ main {
     align-items: center;
 }
 
+header,
+footer {
+    justify-content: left;
+    padding: 10px;
+}
+
+footer img {
+    padding: 15px;
+}
+
 .flex-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
+    
 }
 
 .flex-items {
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1em;
   width: 30%;
   height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+}
+
+header {
+    font-size: 2.25em;
+}
+
+main {
+    font-size: 1.4em;
+}
+
+h1 {
+    font-size: 1.25em;
 }
 
 /* ==========================================================================
